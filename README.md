@@ -1,3 +1,15 @@
+# Run by Nvidia-Docker
+
+build
+
+``nvidia-docker build -t deepfacelab .``
+
+run
+
+``nvidia-docker run -it -v PATH_to_DeepfaceLib_Linux:/dfl``
+
+
+
 # Installation for Ubuntu 16.04
 
 An installation script has been created to automatically install all of the required dependencies for Ubuntu 16.04. Clone the repository and run ``ubuntu16.04-cuda9-installer.sh`` from the root directory of DeepFaceLab_Linux. 
