@@ -6,7 +6,7 @@ build
 
 run
 
-``nvidia-docker run -it -v PATH_to_DeepfaceLib_Linux:/dfl``
+``nvidia-docker run -it -v PATH_to_DeepfaceLib_Linux:/dfl deepfacelab``
 
 
 
